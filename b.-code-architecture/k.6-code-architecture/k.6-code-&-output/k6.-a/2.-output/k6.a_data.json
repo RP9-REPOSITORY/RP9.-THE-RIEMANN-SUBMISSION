@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "repository": "RP9. RH. Z0",
+    "repository_branch": "RP9. RIEMANN SUBMISSION",
+    "python_code_id": "K6. A",
+    "filesystem_name": "K6. A.py",
+    "official_code_title": "K6. SCALE INVARIANCE CROSSCHECK",
+    "repository_position": "PRIMARY SUBMISSION — SUBJECT OF EXAMINATION AND REVIEW",
+    "script_version": "2.0.0",
+    "created_at": "2026-10-09T07:46:47+02:00",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "arithmetic": "Exact rational arithmetic using fractions.Fraction"
+  },
+  "scope": {
+    "tested_chain": [
+      "2/3",
+      "3/2",
+      "3/4",
+      "1/4",
+      "6/8",
+      "2/8"
+    ]
+  },
+  "crosschecks": [
+    {
+      "test_id": "K6_SCALE_T01",
+      "title": "Reciprocal directional lock",
+      "source": "2/3",
+      "target": "3/2",
+      "operation": "(2/3) × (3/2)",
+      "expected": "1",
+      "observed": {
+        "product": {
+          "fraction": "1/1",
+          "numerator": 1,
+          "denominator": 1
+        }
+      },
+      "status": "PASS",
+      "boundary": "Verifies exact reciprocal closure only."
+    },
+    {
+      "test_id": "K6_SCALE_T02",
+      "title": "Linear-to-planar normalization",
+      "source": "3/2",
+      "target": "3/4",
+      "operation": "(3/2) / 2",
+      "expected": "3/4",
+      "observed": {
+        "result": {
+          "fraction": "3/4",
+          "numerator": 3,
+          "denominator": 4
+        }
+      },
+      "status": "PASS",
+      "boundary": "Verifies the stated exact rational transformation only."
+    },
+    {
+      "test_id": "K6_SCALE_T03",
+      "title": "Planar complementary closure",
+      "source": "3/4",
+      "target": "1/4",
+      "operation": "3/4 + 1/4",
+      "expected": "1",
+      "observed": {
+        "sum": {
+          "fraction": "1/1",
+          "numerator": 1,
+          "denominator": 1
+        }
+      },
+      "status": "PASS",
+      "boundary": "Verifies complete planar closure only."
+    },
+    {
+      "test_id": "K6_SCALE_T04",
+      "title": "Main relation scale invariance",
+      "source": "3/4",
+      "target": "6/8",
+      "operation": "3/4 = 6/8",
+      "expected": "Exact quotient equality",
+      "observed": {
+        "planar": {
+          "fraction": "3/4",
+          "numerator": 3,
+          "denominator": 4
+        },
+        "volumetric": {
+          "fraction": "3/4",
+          "numerator": 3,
+          "denominator": 4
+        },
+        "equal": true
+      },
+      "status": "PASS",
+      "boundary": "Verifies quotient invariance across the two representations."
+    },
+    {
+      "test_id": "K6_SCALE_T05",
+      "title": "Complementary relation scale invariance",
+      "source": "1/4",
+      "target": "2/8",
+      "operation": "1/4 = 2/8; 6/8 + 2/8 = 1",
+      "expected": "Exact complement equality and complete closure",
+      "observed": {
+        "planar_complement": {
+          "fraction": "1/4",
+          "numerator": 1,
+          "denominator": 4
+        },
+        "volumetric_complement": {
+          "fraction": "1/4",
+          "numerator": 1,
+          "denominator": 4
+        },
+        "equal": true,
+        "volumetric_sum": {
+          "fraction": "1/1",
+          "numerator": 1,
+          "denominator": 1
+        }
+      },
+      "status": "PASS",
+      "boundary": "Verifies complementary invariance and complete volumetric closure."
+    },
+    {
+      "test_id": "K6_SCALE_T12",
+      "title": "Global submitted-chain control",
+      "source": "K6_SCALE_T01",
+      "target": "K6_SCALE_T05",
+      "operation": "All five independent core controls must PASS",
+      "expected": "5/5 core controls PASS",
+      "observed": {
+        "core_test_count": 5,
+        "core_pass_count": 5,
+        "all_core_controls_pass": true
+      },
+      "status": "PASS",
+      "boundary": "Summarizes the five preceding controls and introduces no new relation."
+    }
+  ],
+  "result": {
+    "test_count": 6,
+    "pass_count": 6,
+    "fail_count": 0,
+    "global_status": "PASS"
+  }
+}

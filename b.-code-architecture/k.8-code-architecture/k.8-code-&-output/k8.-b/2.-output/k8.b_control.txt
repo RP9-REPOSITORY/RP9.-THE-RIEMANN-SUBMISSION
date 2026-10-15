@@ -1,0 +1,21 @@
+P.B.F. BINARY-SCALE INVARIANCE — CONTROL LOG
+==============================================================================
+Python Code ID     : K8. B
+Official Code Title: K8. P.B.F. BINARY-SCALE INVARIANCE VALIDATOR
+File               : K8. B.py
+Version            : 2.1.0
+Timestamp      : 2026-10-09T07:48:27.837362+02:00
+Levels tested  : 8
+Transitions    : 7
+Level PASS     : 8
+Transition PASS: 7
+Global Status  : PASS
+
+PRIMARY IDENTITIES
+------------------------------------------------------------------------------
+1/2 family     : exact
+3/4 family     : exact
+1/4 family     : exact
+Complement     : three-quarter + one-quarter = 1
+Scale operator : x2
+

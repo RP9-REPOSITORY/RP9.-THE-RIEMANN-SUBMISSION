@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "repository": "RP9. RH. Z0",
+    "repository_branch": "RP9. RIEMANN SUBMISSION",
+    "python_code_id": "K8. A",
+    "filesystem_name": "K8. A.py",
+    "official_code_title": "K8. P.B.F. ↔ BINARY PULSE OPERATOR IDENTITY VALIDATOR",
+    "repository_position": "PRIMARY SUBMISSION — SUBJECT OF EXAMINATION AND REVIEW",
+    "version": "2.0.0",
+    "timestamp": "2026-10-09T07:48:07+02:00",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "limit": 1000000
+  },
+  "pbf": {
+    "observation_count": 333334,
+    "closure_count": 78498,
+    "reproduced_count": 254836
+  },
+  "binary_pulse": {
+    "observation_count": 333334,
+    "closure_count": 78498,
+    "reproduced_count": 254836
+  },
+  "operator_identity": {
+    "checks": {
+      "candidate_field_equal": true,
+      "projected_hits_equal": true,
+      "state_classification_equal": true,
+      "closure_sequence_equal": true,
+      "observation_count_equal": true,
+      "closure_count_equal": true,
+      "reproduced_count_equal": true
+    },
+    "first_deviation": {
+      "candidate_field": null,
+      "projected_hits": null,
+      "state_classification": null,
+      "closure_sequence": null
+    },
+    "global_identity": true,
+    "status": "PASS"
+  },
+  "summary": {
+    "operator_identity_locked": true,
+    "k8_t01_terminal_lock": true,
+    "global_status": "PASS"
+  }
+}
