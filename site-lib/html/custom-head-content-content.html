@@ -225,4 +225,26 @@
   margin-right: 0.4em;
   vertical-align: middle;
 }
+
+/* Appendix folders and their documents: permanent gray rows. */
+#file-explorer#file-explorer#file-explorer .nav-folder-title:is([data-path="ⓘ ── Non-submission Appendix"], [data-path$="/ⓘ ── Non-submission Appendix"], [data-path="ⓘ. Non-submission Appendix"], [data-path$="/ⓘ. Non-submission Appendix"], [data-path="RP9. INFORMATION & APPENDIX"], [data-path$="/RP9. INFORMATION & APPENDIX"]),
+#file-explorer#file-explorer#file-explorer .nav-folder:has(> .nav-folder-title:is([data-path="ⓘ ── Non-submission Appendix"], [data-path$="/ⓘ ── Non-submission Appendix"], [data-path="ⓘ. Non-submission Appendix"], [data-path$="/ⓘ. Non-submission Appendix"], [data-path="RP9. INFORMATION & APPENDIX"], [data-path$="/RP9. INFORMATION & APPENDIX"])) .nav-file-title {
+  --rp9-appendix-background: #303030;
+  --nav-item-background-hover: #303030;
+  --nav-item-background-active: #303030;
+  background-color: #303030 !important;
+  background-image: none !important;
+  border-radius: 4px;
+}
+#file-explorer#file-explorer#file-explorer .nav-folder-title:is([data-path="ⓘ ── Non-submission Appendix"], [data-path$="/ⓘ ── Non-submission Appendix"], [data-path="ⓘ. Non-submission Appendix"], [data-path$="/ⓘ. Non-submission Appendix"], [data-path="RP9. INFORMATION & APPENDIX"], [data-path$="/RP9. INFORMATION & APPENDIX"]) {
+  --rp9-text-override: #00ff00;
+  --nav-item-color-hover: #00ff00;
+  color: #00ff00 !important;
+}
+#file-explorer#file-explorer#file-explorer .nav-folder:has(> .nav-folder-title:is([data-path="ⓘ ── Non-submission Appendix"], [data-path$="/ⓘ ── Non-submission Appendix"], [data-path="ⓘ. Non-submission Appendix"], [data-path$="/ⓘ. Non-submission Appendix"], [data-path="RP9. INFORMATION & APPENDIX"], [data-path$="/RP9. INFORMATION & APPENDIX"])) .nav-file-title {
+  --rp9-text-override: #ffffff;
+  --nav-item-color-hover: #ffffff;
+  color: #ffffff !important;
+  font-weight: normal !important;
+}
 </style>
