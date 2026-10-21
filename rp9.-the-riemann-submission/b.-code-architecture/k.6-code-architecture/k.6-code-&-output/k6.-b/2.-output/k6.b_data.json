@@ -1,0 +1,2550 @@
+{
+  "metadata": {
+    "framework": "RP9",
+    "repository": "RP9. RH. Z0",
+    "repository_branch": "RP9. RIEMANN SUBMISSION",
+    "python_code_id": "K6. B",
+    "filesystem_name": "K6. B.py",
+    "official_code_title": "K6. EXACT BINARY PULSE INVARIANCE CHECK",
+    "repository_position": "PRIMARY SUBMISSION — SUBJECT OF EXAMINATION AND REVIEW",
+    "version": "3.0.0",
+    "control_id": "K6_BINARY_PULSE_T01",
+    "timestamp": "2026-10-09T07:47:24+02:00",
+    "arithmetic": "Exact rational arithmetic using fractions.Fraction"
+  },
+  "scope": {
+    "first_position": 0,
+    "last_position": 99,
+    "position_count": 100,
+    "pulse_base": {
+      "fraction": "3/4",
+      "numerator": 3,
+      "denominator": 4
+    },
+    "control_value": {
+      "fraction": "8/1",
+      "numerator": 8,
+      "denominator": 1
+    },
+    "formula_q_n": "q_n = (3/4) / 2^n",
+    "formula_control": "8 / q_n",
+    "expected_even_remainder": {
+      "fraction": "2/3",
+      "numerator": 2,
+      "denominator": 3
+    },
+    "expected_odd_remainder": {
+      "fraction": "1/3",
+      "numerator": 1,
+      "denominator": 3
+    }
+  },
+  "positions": [
+    {
+      "position": 0,
+      "q_n": {
+        "fraction": "3/4",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "control_8_div_q_n": {
+        "fraction": "32/3",
+        "numerator": 32,
+        "denominator": 3
+      },
+      "whole_part": 10,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 1,
+      "q_n": {
+        "fraction": "3/8",
+        "numerator": 3,
+        "denominator": 8
+      },
+      "control_8_div_q_n": {
+        "fraction": "64/3",
+        "numerator": 64,
+        "denominator": 3
+      },
+      "whole_part": 21,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 2,
+      "q_n": {
+        "fraction": "3/16",
+        "numerator": 3,
+        "denominator": 16
+      },
+      "control_8_div_q_n": {
+        "fraction": "128/3",
+        "numerator": 128,
+        "denominator": 3
+      },
+      "whole_part": 42,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 3,
+      "q_n": {
+        "fraction": "3/32",
+        "numerator": 3,
+        "denominator": 32
+      },
+      "control_8_div_q_n": {
+        "fraction": "256/3",
+        "numerator": 256,
+        "denominator": 3
+      },
+      "whole_part": 85,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 4,
+      "q_n": {
+        "fraction": "3/64",
+        "numerator": 3,
+        "denominator": 64
+      },
+      "control_8_div_q_n": {
+        "fraction": "512/3",
+        "numerator": 512,
+        "denominator": 3
+      },
+      "whole_part": 170,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 5,
+      "q_n": {
+        "fraction": "3/128",
+        "numerator": 3,
+        "denominator": 128
+      },
+      "control_8_div_q_n": {
+        "fraction": "1024/3",
+        "numerator": 1024,
+        "denominator": 3
+      },
+      "whole_part": 341,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 6,
+      "q_n": {
+        "fraction": "3/256",
+        "numerator": 3,
+        "denominator": 256
+      },
+      "control_8_div_q_n": {
+        "fraction": "2048/3",
+        "numerator": 2048,
+        "denominator": 3
+      },
+      "whole_part": 682,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 7,
+      "q_n": {
+        "fraction": "3/512",
+        "numerator": 3,
+        "denominator": 512
+      },
+      "control_8_div_q_n": {
+        "fraction": "4096/3",
+        "numerator": 4096,
+        "denominator": 3
+      },
+      "whole_part": 1365,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 8,
+      "q_n": {
+        "fraction": "3/1024",
+        "numerator": 3,
+        "denominator": 1024
+      },
+      "control_8_div_q_n": {
+        "fraction": "8192/3",
+        "numerator": 8192,
+        "denominator": 3
+      },
+      "whole_part": 2730,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 9,
+      "q_n": {
+        "fraction": "3/2048",
+        "numerator": 3,
+        "denominator": 2048
+      },
+      "control_8_div_q_n": {
+        "fraction": "16384/3",
+        "numerator": 16384,
+        "denominator": 3
+      },
+      "whole_part": 5461,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 10,
+      "q_n": {
+        "fraction": "3/4096",
+        "numerator": 3,
+        "denominator": 4096
+      },
+      "control_8_div_q_n": {
+        "fraction": "32768/3",
+        "numerator": 32768,
+        "denominator": 3
+      },
+      "whole_part": 10922,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 11,
+      "q_n": {
+        "fraction": "3/8192",
+        "numerator": 3,
+        "denominator": 8192
+      },
+      "control_8_div_q_n": {
+        "fraction": "65536/3",
+        "numerator": 65536,
+        "denominator": 3
+      },
+      "whole_part": 21845,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 12,
+      "q_n": {
+        "fraction": "3/16384",
+        "numerator": 3,
+        "denominator": 16384
+      },
+      "control_8_div_q_n": {
+        "fraction": "131072/3",
+        "numerator": 131072,
+        "denominator": 3
+      },
+      "whole_part": 43690,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 13,
+      "q_n": {
+        "fraction": "3/32768",
+        "numerator": 3,
+        "denominator": 32768
+      },
+      "control_8_div_q_n": {
+        "fraction": "262144/3",
+        "numerator": 262144,
+        "denominator": 3
+      },
+      "whole_part": 87381,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 14,
+      "q_n": {
+        "fraction": "3/65536",
+        "numerator": 3,
+        "denominator": 65536
+      },
+      "control_8_div_q_n": {
+        "fraction": "524288/3",
+        "numerator": 524288,
+        "denominator": 3
+      },
+      "whole_part": 174762,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 15,
+      "q_n": {
+        "fraction": "3/131072",
+        "numerator": 3,
+        "denominator": 131072
+      },
+      "control_8_div_q_n": {
+        "fraction": "1048576/3",
+        "numerator": 1048576,
+        "denominator": 3
+      },
+      "whole_part": 349525,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 16,
+      "q_n": {
+        "fraction": "3/262144",
+        "numerator": 3,
+        "denominator": 262144
+      },
+      "control_8_div_q_n": {
+        "fraction": "2097152/3",
+        "numerator": 2097152,
+        "denominator": 3
+      },
+      "whole_part": 699050,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 17,
+      "q_n": {
+        "fraction": "3/524288",
+        "numerator": 3,
+        "denominator": 524288
+      },
+      "control_8_div_q_n": {
+        "fraction": "4194304/3",
+        "numerator": 4194304,
+        "denominator": 3
+      },
+      "whole_part": 1398101,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 18,
+      "q_n": {
+        "fraction": "3/1048576",
+        "numerator": 3,
+        "denominator": 1048576
+      },
+      "control_8_div_q_n": {
+        "fraction": "8388608/3",
+        "numerator": 8388608,
+        "denominator": 3
+      },
+      "whole_part": 2796202,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 19,
+      "q_n": {
+        "fraction": "3/2097152",
+        "numerator": 3,
+        "denominator": 2097152
+      },
+      "control_8_div_q_n": {
+        "fraction": "16777216/3",
+        "numerator": 16777216,
+        "denominator": 3
+      },
+      "whole_part": 5592405,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 20,
+      "q_n": {
+        "fraction": "3/4194304",
+        "numerator": 3,
+        "denominator": 4194304
+      },
+      "control_8_div_q_n": {
+        "fraction": "33554432/3",
+        "numerator": 33554432,
+        "denominator": 3
+      },
+      "whole_part": 11184810,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 21,
+      "q_n": {
+        "fraction": "3/8388608",
+        "numerator": 3,
+        "denominator": 8388608
+      },
+      "control_8_div_q_n": {
+        "fraction": "67108864/3",
+        "numerator": 67108864,
+        "denominator": 3
+      },
+      "whole_part": 22369621,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 22,
+      "q_n": {
+        "fraction": "3/16777216",
+        "numerator": 3,
+        "denominator": 16777216
+      },
+      "control_8_div_q_n": {
+        "fraction": "134217728/3",
+        "numerator": 134217728,
+        "denominator": 3
+      },
+      "whole_part": 44739242,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 23,
+      "q_n": {
+        "fraction": "3/33554432",
+        "numerator": 3,
+        "denominator": 33554432
+      },
+      "control_8_div_q_n": {
+        "fraction": "268435456/3",
+        "numerator": 268435456,
+        "denominator": 3
+      },
+      "whole_part": 89478485,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 24,
+      "q_n": {
+        "fraction": "3/67108864",
+        "numerator": 3,
+        "denominator": 67108864
+      },
+      "control_8_div_q_n": {
+        "fraction": "536870912/3",
+        "numerator": 536870912,
+        "denominator": 3
+      },
+      "whole_part": 178956970,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 25,
+      "q_n": {
+        "fraction": "3/134217728",
+        "numerator": 3,
+        "denominator": 134217728
+      },
+      "control_8_div_q_n": {
+        "fraction": "1073741824/3",
+        "numerator": 1073741824,
+        "denominator": 3
+      },
+      "whole_part": 357913941,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 26,
+      "q_n": {
+        "fraction": "3/268435456",
+        "numerator": 3,
+        "denominator": 268435456
+      },
+      "control_8_div_q_n": {
+        "fraction": "2147483648/3",
+        "numerator": 2147483648,
+        "denominator": 3
+      },
+      "whole_part": 715827882,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 27,
+      "q_n": {
+        "fraction": "3/536870912",
+        "numerator": 3,
+        "denominator": 536870912
+      },
+      "control_8_div_q_n": {
+        "fraction": "4294967296/3",
+        "numerator": 4294967296,
+        "denominator": 3
+      },
+      "whole_part": 1431655765,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 28,
+      "q_n": {
+        "fraction": "3/1073741824",
+        "numerator": 3,
+        "denominator": 1073741824
+      },
+      "control_8_div_q_n": {
+        "fraction": "8589934592/3",
+        "numerator": 8589934592,
+        "denominator": 3
+      },
+      "whole_part": 2863311530,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 29,
+      "q_n": {
+        "fraction": "3/2147483648",
+        "numerator": 3,
+        "denominator": 2147483648
+      },
+      "control_8_div_q_n": {
+        "fraction": "17179869184/3",
+        "numerator": 17179869184,
+        "denominator": 3
+      },
+      "whole_part": 5726623061,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 30,
+      "q_n": {
+        "fraction": "3/4294967296",
+        "numerator": 3,
+        "denominator": 4294967296
+      },
+      "control_8_div_q_n": {
+        "fraction": "34359738368/3",
+        "numerator": 34359738368,
+        "denominator": 3
+      },
+      "whole_part": 11453246122,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 31,
+      "q_n": {
+        "fraction": "3/8589934592",
+        "numerator": 3,
+        "denominator": 8589934592
+      },
+      "control_8_div_q_n": {
+        "fraction": "68719476736/3",
+        "numerator": 68719476736,
+        "denominator": 3
+      },
+      "whole_part": 22906492245,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 32,
+      "q_n": {
+        "fraction": "3/17179869184",
+        "numerator": 3,
+        "denominator": 17179869184
+      },
+      "control_8_div_q_n": {
+        "fraction": "137438953472/3",
+        "numerator": 137438953472,
+        "denominator": 3
+      },
+      "whole_part": 45812984490,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 33,
+      "q_n": {
+        "fraction": "3/34359738368",
+        "numerator": 3,
+        "denominator": 34359738368
+      },
+      "control_8_div_q_n": {
+        "fraction": "274877906944/3",
+        "numerator": 274877906944,
+        "denominator": 3
+      },
+      "whole_part": 91625968981,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 34,
+      "q_n": {
+        "fraction": "3/68719476736",
+        "numerator": 3,
+        "denominator": 68719476736
+      },
+      "control_8_div_q_n": {
+        "fraction": "549755813888/3",
+        "numerator": 549755813888,
+        "denominator": 3
+      },
+      "whole_part": 183251937962,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 35,
+      "q_n": {
+        "fraction": "3/137438953472",
+        "numerator": 3,
+        "denominator": 137438953472
+      },
+      "control_8_div_q_n": {
+        "fraction": "1099511627776/3",
+        "numerator": 1099511627776,
+        "denominator": 3
+      },
+      "whole_part": 366503875925,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 36,
+      "q_n": {
+        "fraction": "3/274877906944",
+        "numerator": 3,
+        "denominator": 274877906944
+      },
+      "control_8_div_q_n": {
+        "fraction": "2199023255552/3",
+        "numerator": 2199023255552,
+        "denominator": 3
+      },
+      "whole_part": 733007751850,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 37,
+      "q_n": {
+        "fraction": "3/549755813888",
+        "numerator": 3,
+        "denominator": 549755813888
+      },
+      "control_8_div_q_n": {
+        "fraction": "4398046511104/3",
+        "numerator": 4398046511104,
+        "denominator": 3
+      },
+      "whole_part": 1466015503701,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 38,
+      "q_n": {
+        "fraction": "3/1099511627776",
+        "numerator": 3,
+        "denominator": 1099511627776
+      },
+      "control_8_div_q_n": {
+        "fraction": "8796093022208/3",
+        "numerator": 8796093022208,
+        "denominator": 3
+      },
+      "whole_part": 2932031007402,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 39,
+      "q_n": {
+        "fraction": "3/2199023255552",
+        "numerator": 3,
+        "denominator": 2199023255552
+      },
+      "control_8_div_q_n": {
+        "fraction": "17592186044416/3",
+        "numerator": 17592186044416,
+        "denominator": 3
+      },
+      "whole_part": 5864062014805,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 40,
+      "q_n": {
+        "fraction": "3/4398046511104",
+        "numerator": 3,
+        "denominator": 4398046511104
+      },
+      "control_8_div_q_n": {
+        "fraction": "35184372088832/3",
+        "numerator": 35184372088832,
+        "denominator": 3
+      },
+      "whole_part": 11728124029610,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 41,
+      "q_n": {
+        "fraction": "3/8796093022208",
+        "numerator": 3,
+        "denominator": 8796093022208
+      },
+      "control_8_div_q_n": {
+        "fraction": "70368744177664/3",
+        "numerator": 70368744177664,
+        "denominator": 3
+      },
+      "whole_part": 23456248059221,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 42,
+      "q_n": {
+        "fraction": "3/17592186044416",
+        "numerator": 3,
+        "denominator": 17592186044416
+      },
+      "control_8_div_q_n": {
+        "fraction": "140737488355328/3",
+        "numerator": 140737488355328,
+        "denominator": 3
+      },
+      "whole_part": 46912496118442,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 43,
+      "q_n": {
+        "fraction": "3/35184372088832",
+        "numerator": 3,
+        "denominator": 35184372088832
+      },
+      "control_8_div_q_n": {
+        "fraction": "281474976710656/3",
+        "numerator": 281474976710656,
+        "denominator": 3
+      },
+      "whole_part": 93824992236885,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 44,
+      "q_n": {
+        "fraction": "3/70368744177664",
+        "numerator": 3,
+        "denominator": 70368744177664
+      },
+      "control_8_div_q_n": {
+        "fraction": "562949953421312/3",
+        "numerator": 562949953421312,
+        "denominator": 3
+      },
+      "whole_part": 187649984473770,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 45,
+      "q_n": {
+        "fraction": "3/140737488355328",
+        "numerator": 3,
+        "denominator": 140737488355328
+      },
+      "control_8_div_q_n": {
+        "fraction": "1125899906842624/3",
+        "numerator": 1125899906842624,
+        "denominator": 3
+      },
+      "whole_part": 375299968947541,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 46,
+      "q_n": {
+        "fraction": "3/281474976710656",
+        "numerator": 3,
+        "denominator": 281474976710656
+      },
+      "control_8_div_q_n": {
+        "fraction": "2251799813685248/3",
+        "numerator": 2251799813685248,
+        "denominator": 3
+      },
+      "whole_part": 750599937895082,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 47,
+      "q_n": {
+        "fraction": "3/562949953421312",
+        "numerator": 3,
+        "denominator": 562949953421312
+      },
+      "control_8_div_q_n": {
+        "fraction": "4503599627370496/3",
+        "numerator": 4503599627370496,
+        "denominator": 3
+      },
+      "whole_part": 1501199875790165,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 48,
+      "q_n": {
+        "fraction": "3/1125899906842624",
+        "numerator": 3,
+        "denominator": 1125899906842624
+      },
+      "control_8_div_q_n": {
+        "fraction": "9007199254740992/3",
+        "numerator": 9007199254740992,
+        "denominator": 3
+      },
+      "whole_part": 3002399751580330,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 49,
+      "q_n": {
+        "fraction": "3/2251799813685248",
+        "numerator": 3,
+        "denominator": 2251799813685248
+      },
+      "control_8_div_q_n": {
+        "fraction": "18014398509481984/3",
+        "numerator": 18014398509481984,
+        "denominator": 3
+      },
+      "whole_part": 6004799503160661,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 50,
+      "q_n": {
+        "fraction": "3/4503599627370496",
+        "numerator": 3,
+        "denominator": 4503599627370496
+      },
+      "control_8_div_q_n": {
+        "fraction": "36028797018963968/3",
+        "numerator": 36028797018963968,
+        "denominator": 3
+      },
+      "whole_part": 12009599006321322,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 51,
+      "q_n": {
+        "fraction": "3/9007199254740992",
+        "numerator": 3,
+        "denominator": 9007199254740992
+      },
+      "control_8_div_q_n": {
+        "fraction": "72057594037927936/3",
+        "numerator": 72057594037927936,
+        "denominator": 3
+      },
+      "whole_part": 24019198012642645,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 52,
+      "q_n": {
+        "fraction": "3/18014398509481984",
+        "numerator": 3,
+        "denominator": 18014398509481984
+      },
+      "control_8_div_q_n": {
+        "fraction": "144115188075855872/3",
+        "numerator": 144115188075855872,
+        "denominator": 3
+      },
+      "whole_part": 48038396025285290,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 53,
+      "q_n": {
+        "fraction": "3/36028797018963968",
+        "numerator": 3,
+        "denominator": 36028797018963968
+      },
+      "control_8_div_q_n": {
+        "fraction": "288230376151711744/3",
+        "numerator": 288230376151711744,
+        "denominator": 3
+      },
+      "whole_part": 96076792050570581,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 54,
+      "q_n": {
+        "fraction": "3/72057594037927936",
+        "numerator": 3,
+        "denominator": 72057594037927936
+      },
+      "control_8_div_q_n": {
+        "fraction": "576460752303423488/3",
+        "numerator": 576460752303423488,
+        "denominator": 3
+      },
+      "whole_part": 192153584101141162,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 55,
+      "q_n": {
+        "fraction": "3/144115188075855872",
+        "numerator": 3,
+        "denominator": 144115188075855872
+      },
+      "control_8_div_q_n": {
+        "fraction": "1152921504606846976/3",
+        "numerator": 1152921504606846976,
+        "denominator": 3
+      },
+      "whole_part": 384307168202282325,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 56,
+      "q_n": {
+        "fraction": "3/288230376151711744",
+        "numerator": 3,
+        "denominator": 288230376151711744
+      },
+      "control_8_div_q_n": {
+        "fraction": "2305843009213693952/3",
+        "numerator": 2305843009213693952,
+        "denominator": 3
+      },
+      "whole_part": 768614336404564650,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 57,
+      "q_n": {
+        "fraction": "3/576460752303423488",
+        "numerator": 3,
+        "denominator": 576460752303423488
+      },
+      "control_8_div_q_n": {
+        "fraction": "4611686018427387904/3",
+        "numerator": 4611686018427387904,
+        "denominator": 3
+      },
+      "whole_part": 1537228672809129301,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 58,
+      "q_n": {
+        "fraction": "3/1152921504606846976",
+        "numerator": 3,
+        "denominator": 1152921504606846976
+      },
+      "control_8_div_q_n": {
+        "fraction": "9223372036854775808/3",
+        "numerator": 9223372036854775808,
+        "denominator": 3
+      },
+      "whole_part": 3074457345618258602,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 59,
+      "q_n": {
+        "fraction": "3/2305843009213693952",
+        "numerator": 3,
+        "denominator": 2305843009213693952
+      },
+      "control_8_div_q_n": {
+        "fraction": "18446744073709551616/3",
+        "numerator": 18446744073709551616,
+        "denominator": 3
+      },
+      "whole_part": 6148914691236517205,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 60,
+      "q_n": {
+        "fraction": "3/4611686018427387904",
+        "numerator": 3,
+        "denominator": 4611686018427387904
+      },
+      "control_8_div_q_n": {
+        "fraction": "36893488147419103232/3",
+        "numerator": 36893488147419103232,
+        "denominator": 3
+      },
+      "whole_part": 12297829382473034410,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 61,
+      "q_n": {
+        "fraction": "3/9223372036854775808",
+        "numerator": 3,
+        "denominator": 9223372036854775808
+      },
+      "control_8_div_q_n": {
+        "fraction": "73786976294838206464/3",
+        "numerator": 73786976294838206464,
+        "denominator": 3
+      },
+      "whole_part": 24595658764946068821,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 62,
+      "q_n": {
+        "fraction": "3/18446744073709551616",
+        "numerator": 3,
+        "denominator": 18446744073709551616
+      },
+      "control_8_div_q_n": {
+        "fraction": "147573952589676412928/3",
+        "numerator": 147573952589676412928,
+        "denominator": 3
+      },
+      "whole_part": 49191317529892137642,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 63,
+      "q_n": {
+        "fraction": "3/36893488147419103232",
+        "numerator": 3,
+        "denominator": 36893488147419103232
+      },
+      "control_8_div_q_n": {
+        "fraction": "295147905179352825856/3",
+        "numerator": 295147905179352825856,
+        "denominator": 3
+      },
+      "whole_part": 98382635059784275285,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 64,
+      "q_n": {
+        "fraction": "3/73786976294838206464",
+        "numerator": 3,
+        "denominator": 73786976294838206464
+      },
+      "control_8_div_q_n": {
+        "fraction": "590295810358705651712/3",
+        "numerator": 590295810358705651712,
+        "denominator": 3
+      },
+      "whole_part": 196765270119568550570,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 65,
+      "q_n": {
+        "fraction": "3/147573952589676412928",
+        "numerator": 3,
+        "denominator": 147573952589676412928
+      },
+      "control_8_div_q_n": {
+        "fraction": "1180591620717411303424/3",
+        "numerator": 1180591620717411303424,
+        "denominator": 3
+      },
+      "whole_part": 393530540239137101141,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 66,
+      "q_n": {
+        "fraction": "3/295147905179352825856",
+        "numerator": 3,
+        "denominator": 295147905179352825856
+      },
+      "control_8_div_q_n": {
+        "fraction": "2361183241434822606848/3",
+        "numerator": 2361183241434822606848,
+        "denominator": 3
+      },
+      "whole_part": 787061080478274202282,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 67,
+      "q_n": {
+        "fraction": "3/590295810358705651712",
+        "numerator": 3,
+        "denominator": 590295810358705651712
+      },
+      "control_8_div_q_n": {
+        "fraction": "4722366482869645213696/3",
+        "numerator": 4722366482869645213696,
+        "denominator": 3
+      },
+      "whole_part": 1574122160956548404565,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 68,
+      "q_n": {
+        "fraction": "3/1180591620717411303424",
+        "numerator": 3,
+        "denominator": 1180591620717411303424
+      },
+      "control_8_div_q_n": {
+        "fraction": "9444732965739290427392/3",
+        "numerator": 9444732965739290427392,
+        "denominator": 3
+      },
+      "whole_part": 3148244321913096809130,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 69,
+      "q_n": {
+        "fraction": "3/2361183241434822606848",
+        "numerator": 3,
+        "denominator": 2361183241434822606848
+      },
+      "control_8_div_q_n": {
+        "fraction": "18889465931478580854784/3",
+        "numerator": 18889465931478580854784,
+        "denominator": 3
+      },
+      "whole_part": 6296488643826193618261,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 70,
+      "q_n": {
+        "fraction": "3/4722366482869645213696",
+        "numerator": 3,
+        "denominator": 4722366482869645213696
+      },
+      "control_8_div_q_n": {
+        "fraction": "37778931862957161709568/3",
+        "numerator": 37778931862957161709568,
+        "denominator": 3
+      },
+      "whole_part": 12592977287652387236522,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 71,
+      "q_n": {
+        "fraction": "3/9444732965739290427392",
+        "numerator": 3,
+        "denominator": 9444732965739290427392
+      },
+      "control_8_div_q_n": {
+        "fraction": "75557863725914323419136/3",
+        "numerator": 75557863725914323419136,
+        "denominator": 3
+      },
+      "whole_part": 25185954575304774473045,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 72,
+      "q_n": {
+        "fraction": "3/18889465931478580854784",
+        "numerator": 3,
+        "denominator": 18889465931478580854784
+      },
+      "control_8_div_q_n": {
+        "fraction": "151115727451828646838272/3",
+        "numerator": 151115727451828646838272,
+        "denominator": 3
+      },
+      "whole_part": 50371909150609548946090,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 73,
+      "q_n": {
+        "fraction": "3/37778931862957161709568",
+        "numerator": 3,
+        "denominator": 37778931862957161709568
+      },
+      "control_8_div_q_n": {
+        "fraction": "302231454903657293676544/3",
+        "numerator": 302231454903657293676544,
+        "denominator": 3
+      },
+      "whole_part": 100743818301219097892181,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 74,
+      "q_n": {
+        "fraction": "3/75557863725914323419136",
+        "numerator": 3,
+        "denominator": 75557863725914323419136
+      },
+      "control_8_div_q_n": {
+        "fraction": "604462909807314587353088/3",
+        "numerator": 604462909807314587353088,
+        "denominator": 3
+      },
+      "whole_part": 201487636602438195784362,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 75,
+      "q_n": {
+        "fraction": "3/151115727451828646838272",
+        "numerator": 3,
+        "denominator": 151115727451828646838272
+      },
+      "control_8_div_q_n": {
+        "fraction": "1208925819614629174706176/3",
+        "numerator": 1208925819614629174706176,
+        "denominator": 3
+      },
+      "whole_part": 402975273204876391568725,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 76,
+      "q_n": {
+        "fraction": "3/302231454903657293676544",
+        "numerator": 3,
+        "denominator": 302231454903657293676544
+      },
+      "control_8_div_q_n": {
+        "fraction": "2417851639229258349412352/3",
+        "numerator": 2417851639229258349412352,
+        "denominator": 3
+      },
+      "whole_part": 805950546409752783137450,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 77,
+      "q_n": {
+        "fraction": "3/604462909807314587353088",
+        "numerator": 3,
+        "denominator": 604462909807314587353088
+      },
+      "control_8_div_q_n": {
+        "fraction": "4835703278458516698824704/3",
+        "numerator": 4835703278458516698824704,
+        "denominator": 3
+      },
+      "whole_part": 1611901092819505566274901,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 78,
+      "q_n": {
+        "fraction": "3/1208925819614629174706176",
+        "numerator": 3,
+        "denominator": 1208925819614629174706176
+      },
+      "control_8_div_q_n": {
+        "fraction": "9671406556917033397649408/3",
+        "numerator": 9671406556917033397649408,
+        "denominator": 3
+      },
+      "whole_part": 3223802185639011132549802,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 79,
+      "q_n": {
+        "fraction": "3/2417851639229258349412352",
+        "numerator": 3,
+        "denominator": 2417851639229258349412352
+      },
+      "control_8_div_q_n": {
+        "fraction": "19342813113834066795298816/3",
+        "numerator": 19342813113834066795298816,
+        "denominator": 3
+      },
+      "whole_part": 6447604371278022265099605,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 80,
+      "q_n": {
+        "fraction": "3/4835703278458516698824704",
+        "numerator": 3,
+        "denominator": 4835703278458516698824704
+      },
+      "control_8_div_q_n": {
+        "fraction": "38685626227668133590597632/3",
+        "numerator": 38685626227668133590597632,
+        "denominator": 3
+      },
+      "whole_part": 12895208742556044530199210,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 81,
+      "q_n": {
+        "fraction": "3/9671406556917033397649408",
+        "numerator": 3,
+        "denominator": 9671406556917033397649408
+      },
+      "control_8_div_q_n": {
+        "fraction": "77371252455336267181195264/3",
+        "numerator": 77371252455336267181195264,
+        "denominator": 3
+      },
+      "whole_part": 25790417485112089060398421,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 82,
+      "q_n": {
+        "fraction": "3/19342813113834066795298816",
+        "numerator": 3,
+        "denominator": 19342813113834066795298816
+      },
+      "control_8_div_q_n": {
+        "fraction": "154742504910672534362390528/3",
+        "numerator": 154742504910672534362390528,
+        "denominator": 3
+      },
+      "whole_part": 51580834970224178120796842,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 83,
+      "q_n": {
+        "fraction": "3/38685626227668133590597632",
+        "numerator": 3,
+        "denominator": 38685626227668133590597632
+      },
+      "control_8_div_q_n": {
+        "fraction": "309485009821345068724781056/3",
+        "numerator": 309485009821345068724781056,
+        "denominator": 3
+      },
+      "whole_part": 103161669940448356241593685,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 84,
+      "q_n": {
+        "fraction": "3/77371252455336267181195264",
+        "numerator": 3,
+        "denominator": 77371252455336267181195264
+      },
+      "control_8_div_q_n": {
+        "fraction": "618970019642690137449562112/3",
+        "numerator": 618970019642690137449562112,
+        "denominator": 3
+      },
+      "whole_part": 206323339880896712483187370,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 85,
+      "q_n": {
+        "fraction": "3/154742504910672534362390528",
+        "numerator": 3,
+        "denominator": 154742504910672534362390528
+      },
+      "control_8_div_q_n": {
+        "fraction": "1237940039285380274899124224/3",
+        "numerator": 1237940039285380274899124224,
+        "denominator": 3
+      },
+      "whole_part": 412646679761793424966374741,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 86,
+      "q_n": {
+        "fraction": "3/309485009821345068724781056",
+        "numerator": 3,
+        "denominator": 309485009821345068724781056
+      },
+      "control_8_div_q_n": {
+        "fraction": "2475880078570760549798248448/3",
+        "numerator": 2475880078570760549798248448,
+        "denominator": 3
+      },
+      "whole_part": 825293359523586849932749482,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 87,
+      "q_n": {
+        "fraction": "3/618970019642690137449562112",
+        "numerator": 3,
+        "denominator": 618970019642690137449562112
+      },
+      "control_8_div_q_n": {
+        "fraction": "4951760157141521099596496896/3",
+        "numerator": 4951760157141521099596496896,
+        "denominator": 3
+      },
+      "whole_part": 1650586719047173699865498965,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 88,
+      "q_n": {
+        "fraction": "3/1237940039285380274899124224",
+        "numerator": 3,
+        "denominator": 1237940039285380274899124224
+      },
+      "control_8_div_q_n": {
+        "fraction": "9903520314283042199192993792/3",
+        "numerator": 9903520314283042199192993792,
+        "denominator": 3
+      },
+      "whole_part": 3301173438094347399730997930,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 89,
+      "q_n": {
+        "fraction": "3/2475880078570760549798248448",
+        "numerator": 3,
+        "denominator": 2475880078570760549798248448
+      },
+      "control_8_div_q_n": {
+        "fraction": "19807040628566084398385987584/3",
+        "numerator": 19807040628566084398385987584,
+        "denominator": 3
+      },
+      "whole_part": 6602346876188694799461995861,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 90,
+      "q_n": {
+        "fraction": "3/4951760157141521099596496896",
+        "numerator": 3,
+        "denominator": 4951760157141521099596496896
+      },
+      "control_8_div_q_n": {
+        "fraction": "39614081257132168796771975168/3",
+        "numerator": 39614081257132168796771975168,
+        "denominator": 3
+      },
+      "whole_part": 13204693752377389598923991722,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 91,
+      "q_n": {
+        "fraction": "3/9903520314283042199192993792",
+        "numerator": 3,
+        "denominator": 9903520314283042199192993792
+      },
+      "control_8_div_q_n": {
+        "fraction": "79228162514264337593543950336/3",
+        "numerator": 79228162514264337593543950336,
+        "denominator": 3
+      },
+      "whole_part": 26409387504754779197847983445,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 92,
+      "q_n": {
+        "fraction": "3/19807040628566084398385987584",
+        "numerator": 3,
+        "denominator": 19807040628566084398385987584
+      },
+      "control_8_div_q_n": {
+        "fraction": "158456325028528675187087900672/3",
+        "numerator": 158456325028528675187087900672,
+        "denominator": 3
+      },
+      "whole_part": 52818775009509558395695966890,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 93,
+      "q_n": {
+        "fraction": "3/39614081257132168796771975168",
+        "numerator": 3,
+        "denominator": 39614081257132168796771975168
+      },
+      "control_8_div_q_n": {
+        "fraction": "316912650057057350374175801344/3",
+        "numerator": 316912650057057350374175801344,
+        "denominator": 3
+      },
+      "whole_part": 105637550019019116791391933781,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 94,
+      "q_n": {
+        "fraction": "3/79228162514264337593543950336",
+        "numerator": 3,
+        "denominator": 79228162514264337593543950336
+      },
+      "control_8_div_q_n": {
+        "fraction": "633825300114114700748351602688/3",
+        "numerator": 633825300114114700748351602688,
+        "denominator": 3
+      },
+      "whole_part": 211275100038038233582783867562,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 95,
+      "q_n": {
+        "fraction": "3/158456325028528675187087900672",
+        "numerator": 3,
+        "denominator": 158456325028528675187087900672
+      },
+      "control_8_div_q_n": {
+        "fraction": "1267650600228229401496703205376/3",
+        "numerator": 1267650600228229401496703205376,
+        "denominator": 3
+      },
+      "whole_part": 422550200076076467165567735125,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 96,
+      "q_n": {
+        "fraction": "3/316912650057057350374175801344",
+        "numerator": 3,
+        "denominator": 316912650057057350374175801344
+      },
+      "control_8_div_q_n": {
+        "fraction": "2535301200456458802993406410752/3",
+        "numerator": 2535301200456458802993406410752,
+        "denominator": 3
+      },
+      "whole_part": 845100400152152934331135470250,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 97,
+      "q_n": {
+        "fraction": "3/633825300114114700748351602688",
+        "numerator": 3,
+        "denominator": 633825300114114700748351602688
+      },
+      "control_8_div_q_n": {
+        "fraction": "5070602400912917605986812821504/3",
+        "numerator": 5070602400912917605986812821504,
+        "denominator": 3
+      },
+      "whole_part": 1690200800304305868662270940501,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 98,
+      "q_n": {
+        "fraction": "3/1267650600228229401496703205376",
+        "numerator": 3,
+        "denominator": 1267650600228229401496703205376
+      },
+      "control_8_div_q_n": {
+        "fraction": "10141204801825835211973625643008/3",
+        "numerator": 10141204801825835211973625643008,
+        "denominator": 3
+      },
+      "whole_part": 3380401600608611737324541881002,
+      "observed_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "2/3",
+        "numerator": 2,
+        "denominator": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "position": 99,
+      "q_n": {
+        "fraction": "3/2535301200456458802993406410752",
+        "numerator": 3,
+        "denominator": 2535301200456458802993406410752
+      },
+      "control_8_div_q_n": {
+        "fraction": "20282409603651670423947251286016/3",
+        "numerator": 20282409603651670423947251286016,
+        "denominator": 3
+      },
+      "whole_part": 6760803201217223474649083762005,
+      "observed_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "expected_remainder": {
+        "fraction": "1/3",
+        "numerator": 1,
+        "denominator": 3
+      },
+      "status": "PASS"
+    }
+  ],
+  "result": {
+    "pass_count": 100,
+    "fail_count": 0,
+    "first_deviation": null,
+    "global_status": "PASS"
+  }
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "step": 1,
+    "operation": "pbf_generation",
+    "result": {
+      "observation_count": 333334,
+      "closure_count": 78498,
+      "reproduced_count": 254836
+    },
+    "status": "PASS"
+  },
+  {
+    "step": 2,
+    "operation": "binary_pulse_generation",
+    "result": {
+      "observation_count": 333334,
+      "closure_count": 78498,
+      "reproduced_count": 254836
+    },
+    "status": "PASS"
+  },
+  {
+    "step": 3,
+    "operation": "operator_identity_comparison",
+    "result": {
+      "checks": {
+        "candidate_field_equal": true,
+        "projected_hits_equal": true,
+        "state_classification_equal": true,
+        "closure_sequence_equal": true,
+        "observation_count_equal": true,
+        "closure_count_equal": true,
+        "reproduced_count_equal": true
+      },
+      "first_deviation": {
+        "candidate_field": null,
+        "projected_hits": null,
+        "state_classification": null,
+        "closure_sequence": null
+      },
+      "global_identity": true,
+      "status": "PASS"
+    },
+    "status": "PASS"
+  },
+  {
+    "step": 4,
+    "operation": "k8_t01_terminal_lock",
+    "result": {
+      "operator_identity_locked": true,
+      "terminal_lock": true
+    },
+    "status": "PASS"
+  }
+]

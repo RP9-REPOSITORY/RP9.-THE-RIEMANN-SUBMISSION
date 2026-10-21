@@ -1,0 +1,433 @@
+{
+  "repository": "RP9. RH. Z0",
+  "repository_branch": "RP9. RIEMANN SUBMISSION",
+  "python_code_id": "K8. C",
+  "filesystem_name": "K8. C.py",
+  "official_code_title": "K8. P.B.F. BINARY STRUCTURE → BASE 10 PROJECTION LOCK VALIDATOR",
+  "repository_position": "PRIMARY SUBMISSION — SUBJECT OF EXAMINATION AND REVIEW",
+  "version": "2.0.0",
+  "timestamp": "2026-10-09T07:48:46.923170+02:00",
+  "execution_root": "F:\\RP9. Vault\\RP9. OFFICIAL SUBMISSION 1\\RP9. RH. Z0\\RP9. THE RIEMANN SUBMISSION\\B. CODE ARCHITECTURE\\K.8 CODE ARCHITECTURE\\K.8 CODE & OUTPUT\\K8. C\\1. Python",
+  "output_directory": "F:\\RP9. Vault\\RP9. OFFICIAL SUBMISSION 1\\RP9. RH. Z0\\RP9. THE RIEMANN SUBMISSION\\B. CODE ARCHITECTURE\\K.8 CODE ARCHITECTURE\\K.8 CODE & OUTPUT\\K8. C\\1. Python\\2. OUTPUT",
+  "level_count": 8,
+  "global_status": "PASS",
+  "results": [
+    {
+      "level": 0,
+      "binary_factor": 1,
+      "source": {
+        "half_expression": "1/2",
+        "active_expression": "3/4",
+        "lock_expression": "1/4",
+        "eighth_expression": "1/8"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 1,
+      "binary_factor": 2,
+      "source": {
+        "half_expression": "2/4",
+        "active_expression": "6/8",
+        "lock_expression": "2/8",
+        "eighth_expression": "2/16"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 2,
+      "binary_factor": 4,
+      "source": {
+        "half_expression": "4/8",
+        "active_expression": "12/16",
+        "lock_expression": "4/16",
+        "eighth_expression": "4/32"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 3,
+      "binary_factor": 8,
+      "source": {
+        "half_expression": "8/16",
+        "active_expression": "24/32",
+        "lock_expression": "8/32",
+        "eighth_expression": "8/64"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 4,
+      "binary_factor": 16,
+      "source": {
+        "half_expression": "16/32",
+        "active_expression": "48/64",
+        "lock_expression": "16/64",
+        "eighth_expression": "16/128"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 5,
+      "binary_factor": 32,
+      "source": {
+        "half_expression": "32/64",
+        "active_expression": "96/128",
+        "lock_expression": "32/128",
+        "eighth_expression": "32/256"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 6,
+      "binary_factor": 64,
+      "source": {
+        "half_expression": "64/128",
+        "active_expression": "192/256",
+        "lock_expression": "64/256",
+        "eighth_expression": "64/512"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    },
+    {
+      "level": 7,
+      "binary_factor": 128,
+      "source": {
+        "half_expression": "128/256",
+        "active_expression": "384/512",
+        "lock_expression": "128/512",
+        "eighth_expression": "128/1024"
+      },
+      "projection": {
+        "half": {
+          "source_fraction": "1/2",
+          "base10": "0.5",
+          "reconstructed_fraction": "1/2",
+          "roundtrip_exact": true
+        },
+        "active": {
+          "source_fraction": "3/4",
+          "base10": "0.75",
+          "reconstructed_fraction": "3/4",
+          "roundtrip_exact": true
+        },
+        "lock": {
+          "source_fraction": "1/4",
+          "base10": "0.25",
+          "reconstructed_fraction": "1/4",
+          "roundtrip_exact": true
+        },
+        "eighth": {
+          "source_fraction": "1/8",
+          "base10": "0.125",
+          "reconstructed_fraction": "1/8",
+          "roundtrip_exact": true
+        },
+        "full_frame": {
+          "source_fraction": "1/1",
+          "base10": "1",
+          "reconstructed_fraction": "1/1",
+          "roundtrip_exact": true
+        }
+      },
+      "checks": {
+        "complement_exact": true,
+        "relational_identity_preserved": true,
+        "all_roundtrips_exact": true,
+        "no_new_state_introduced": true,
+        "base10_expected_values_exact": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "cross_level": {
+    "reference_base10": {
+      "half": "0.5",
+      "active": "0.75",
+      "lock": "0.25",
+      "eighth": "0.125",
+      "full_frame": "1"
+    },
+    "checks": {
+      "half": true,
+      "active": true,
+      "lock": true,
+      "eighth": true,
+      "full_frame": true
+    },
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,22 @@
+P.B.F. BINARY STRUCTURE -> BASE 10 PROJECTION LOCK — CONTROL LOG
+==================================================================================
+Python Code ID       : K8. C
+Official Code Title  : K8. P.B.F. BINARY STRUCTURE → BASE 10 PROJECTION LOCK VALIDATOR
+File                 : K8. C.py
+Version              : 2.0.0
+Timestamp            : 2026-10-09T07:48:46.923170+02:00
+Levels tested        : 8
+Level PASS           : 8/8
+Cross-level identity : PASS
+
+BASE-10 TARGET REPRESENTATIONS
+----------------------------------------------------------------------------------
+1/2                  : 0.5
+3/4                  : 0.75
+1/4                  : 0.25
+1/8                  : 0.125
+Full frame           : 1
+
+FINAL
+----------------------------------------------------------------------------------
+BASE-10 PROJECTION LOCK: PASS

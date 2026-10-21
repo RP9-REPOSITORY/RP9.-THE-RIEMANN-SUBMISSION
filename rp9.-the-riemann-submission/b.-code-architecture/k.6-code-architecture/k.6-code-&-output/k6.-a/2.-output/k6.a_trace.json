@@ -1,0 +1,131 @@
+[
+  {
+    "step": 1,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T01",
+    "title": "Reciprocal directional lock",
+    "source": "2/3",
+    "target": "3/2",
+    "operation": "(2/3) × (3/2)",
+    "expected": "1",
+    "observed": {
+      "product": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    "status": "PASS",
+    "boundary": "Verifies exact reciprocal closure only."
+  },
+  {
+    "step": 2,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T02",
+    "title": "Linear-to-planar normalization",
+    "source": "3/2",
+    "target": "3/4",
+    "operation": "(3/2) / 2",
+    "expected": "3/4",
+    "observed": {
+      "result": {
+        "fraction": "3/4",
+        "numerator": 3,
+        "denominator": 4
+      }
+    },
+    "status": "PASS",
+    "boundary": "Verifies the stated exact rational transformation only."
+  },
+  {
+    "step": 3,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T03",
+    "title": "Planar complementary closure",
+    "source": "3/4",
+    "target": "1/4",
+    "operation": "3/4 + 1/4",
+    "expected": "1",
+    "observed": {
+      "sum": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    "status": "PASS",
+    "boundary": "Verifies complete planar closure only."
+  },
+  {
+    "step": 4,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T04",
+    "title": "Main relation scale invariance",
+    "source": "3/4",
+    "target": "6/8",
+    "operation": "3/4 = 6/8",
+    "expected": "Exact quotient equality",
+    "observed": {
+      "planar": {
+        "fraction": "3/4",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "volumetric": {
+        "fraction": "3/4",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "equal": true
+    },
+    "status": "PASS",
+    "boundary": "Verifies quotient invariance across the two representations."
+  },
+  {
+    "step": 5,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T05",
+    "title": "Complementary relation scale invariance",
+    "source": "1/4",
+    "target": "2/8",
+    "operation": "1/4 = 2/8; 6/8 + 2/8 = 1",
+    "expected": "Exact complement equality and complete closure",
+    "observed": {
+      "planar_complement": {
+        "fraction": "1/4",
+        "numerator": 1,
+        "denominator": 4
+      },
+      "volumetric_complement": {
+        "fraction": "1/4",
+        "numerator": 1,
+        "denominator": 4
+      },
+      "equal": true,
+      "volumetric_sum": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1
+      }
+    },
+    "status": "PASS",
+    "boundary": "Verifies complementary invariance and complete volumetric closure."
+  },
+  {
+    "step": 6,
+    "timestamp": "2026-10-09T07:46:47+02:00",
+    "test_id": "K6_SCALE_T12",
+    "title": "Global submitted-chain control",
+    "source": "K6_SCALE_T01",
+    "target": "K6_SCALE_T05",
+    "operation": "All five independent core controls must PASS",
+    "expected": "5/5 core controls PASS",
+    "observed": {
+      "core_test_count": 5,
+      "core_pass_count": 5,
+      "all_core_controls_pass": true
+    },
+    "status": "PASS",
+    "boundary": "Summarizes the five preceding controls and introduces no new relation."
+  }
+]

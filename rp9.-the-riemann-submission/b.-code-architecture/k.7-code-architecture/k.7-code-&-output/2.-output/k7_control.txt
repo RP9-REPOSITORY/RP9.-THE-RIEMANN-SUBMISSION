@@ -1,0 +1,67 @@
+P.B.F. FULL POSITIONAL GENEALOGY — CONTROL LOG
+========================================================================================
+Python Code ID: K7
+Official Code Title: K7. P.B.F. FULL POSITIONAL GENEALOGY — 100B VALIDATOR
+File: K7.py
+Version: 4.1.0-100B-POSITIONAL-GENEALOGY
+Timestamp: 2026-09-29T06:52:43+02:00
+Global Status: PASS
+Maximum Executed Genealogy Status: PASS
+First Deviation Position: NONE
+
+SCALE BREAKDOWN
+----------------------------------------------------------------------------------------
+LIMIT: 1,000,000
+  Observation positions: 333,334
+  P.B.F. closures: 78,498
+  Reproduced positions: 254,836
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
+LIMIT: 10,000,000
+  Observation positions: 3,333,334
+  P.B.F. closures: 664,579
+  Reproduced positions: 2,668,755
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
+LIMIT: 100,000,000
+  Observation positions: 33,333,334
+  P.B.F. closures: 5,761,455
+  Reproduced positions: 27,571,879
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
+LIMIT: 1,000,000,000
+  Observation positions: 333,333,334
+  P.B.F. closures: 50,847,534
+  Reproduced positions: 282,485,800
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
+LIMIT: 10,000,000,000
+  Observation positions: 3,333,333,334
+  P.B.F. closures: 455,052,511
+  Reproduced positions: 2,878,280,823
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
+LIMIT: 100,000,000,000
+  Observation positions: 33,333,333,334
+  P.B.F. closures: 4,118,054,813
+  Reproduced positions: 29,215,278,521
+  False positives: 0
+  False negatives: 0
+  Exact positional match: True
+  Status: PASS
+
